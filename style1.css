@@ -1,0 +1,536 @@
+/*Hoja de estilo 1*/
+* {margin:0; padding:0; box-sizing: border-box;}
+html, html a {-webkit-font-smoothing: antialiased !important;}
+body {background:url(images/fondo2.jpg);}
+
+@font-face {
+    font-family: "Sequel100Wide-45Wide";
+    src: url(fonts/Sequel100Wide-45Wide.otf);
+}
+@font-face {
+    font-family: "Sequel100Wide-55Wide";
+    src: url(fonts/Sequel100Wide-55Wide.otf);
+}
+@font-face {
+    font-family: "Sequel100Wide-75Wide";
+    src: url(fonts/Sequel100Wide-75Wide.otf);
+}
+@font-face {
+    font-family: "NimbusSansDOT-Regu";
+    src: url(fonts/NimbusSansDOT-Regu.otf);
+}
+@font-face {
+    font-family: "NimbusSansDOT-Bold";
+    src: url(fonts/NimbusSansDOT-Bold.otf);
+}
+@font-face {
+    font-family: "NimbusSansNovusDOT-BlaOut";
+    src: url(fonts/NimbusSansNovusDOT-BlaOut.otf);
+}
+@font-face {
+    font-family: "Gotham-Book";
+    src: url(fonts/Gotham-Book.otf);
+}
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url(fonts/Gotham-Bold.otf);
+}
+
+h1 {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 0.9em;
+}
+
+section h3 {
+    font-family: "NimbusSansNovusDOT-BlaOut", "Nimbus Sans Novus D OT", sans-serif;
+    font-size: 4em;
+    color: white;
+}
+
+p {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+p strong {font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;}
+
+.indLogo {
+    height: 25em;
+    align-items: center;
+}
+
+.rayita {
+    margin-top: 2em;
+    height: 0.15em;
+    width: 4em;
+    background-color: white;
+}
+
+.ir-arriba {
+    position: fixed;
+    display: none;
+    bottom: 2.5em;
+	right: 1.7em;
+    width: 2.3em;
+    height: 2.3em;
+	cursor: pointer;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+    transform: rotate(-90deg); 
+    z-index: 1;
+}
+
+.containerrr {margin: 0 6em;}
+
+/* NAVEGADOR___________________________________ */
+#proyectos .navbar {padding: .5rem 0 !important;}
+#navBar1 {
+    padding: 0;
+    width: 3.5em;
+    height: 100%;
+    margin-left: 2em;
+}
+
+#navBar2 {
+    position: fixed;
+    padding: 0;
+    top: 15.1em;
+    right: -14em;
+
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+.colla {display: none;}
+#collaNB {
+    width: 6.5em;
+    padding: 0.3em 0.5em !important;
+    text-align: right;
+    margin-right: 3.5em; 
+    margin-top: -2.5em;
+    border-radius: 0.5em;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#collaNB li {margin: .4em 0;}
+
+.navfcont1 {width: 100%; height: 100%;}
+.navfcont2 .p-2 {
+    margin: 2em 1.3em 0 0 !important;
+    padding: 0 !important;
+}
+
+.navfcont2 a {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+}
+
+.logolnk {
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.rotLang {
+    margin-left: -1.4em;
+    margin-top: 2em;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg); 
+}
+
+.rotLang a {color: white;}
+.rotLang a:hover {text-decoration: none;color: lightgray;}
+
+.leftBsCn {
+    position: fixed;
+    bottom: 2em;
+    left: 1.6em;
+    width: 2em;
+}
+
+.rotTel {
+    margin-left: -4.7em;
+    margin-bottom: 4em;
+    width: 12em;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+.nav-item {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+    list-style: none;
+    color: white;
+}
+
+#navPcpal img {width: 2.5em;}
+.icnNav {width: 2.5em;}
+#navPcpal a {color: white;font-size: 1em;}
+.navbar-toggler {
+    font-size: 1em !important;
+    border: none !important;
+}
+
+button:focus {outline: none !important;}
+#navPcpal a:active {text-decoration: underline;}
+#navPcpal a:hover {
+    color:lightgray;
+    text-decoration: none;
+}
+
+/* SECCIONES___________________________________ */
+.colSplash {
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SERVICIOS___________________________________ */
+#firstRow {padding: 1em 10px 0 10px;}
+#imgServicios {
+    max-width: 100%;
+    width: 15em;
+}
+
+#imgRect {width: 3em;}
+#titleRow h1 {
+    font-family: "Sequel100Wide-55Wide", "Sequel 100 Wide", sans-serif;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 2em;
+    color: white;
+}
+
+.servCont {
+    display:flex;
+	width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.rectangulo {
+    width: 20em;
+    /*min-width: 20em;*/
+    margin: 0.8em;
+    border-radius: 0.7em;
+    padding: 1.5em;
+}
+
+.largo {height: 25em;}
+.corto {height: 19em;}
+
+.rectangulo h2 {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+    margin-top: 0.4em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.rectangulo p {
+    font-family: "NimbusSansDOT-Regu", sans-serif;
+    line-height: 1.3em;
+    font-size: 1em;
+}
+
+.rectangulo li {
+    font-family: "NimbusSansDOT-Bold", "Nimbus Sans D OT", sans-serif;
+    line-height: 1.3em;
+    margin-left: 1em;
+    font-size: 1em;
+    color: white;
+}
+
+.colRojo {background-color: #B72626;}
+.colMostaza {background-color: #C79816;}
+.colVerde {background-color: #1BB4A8;}
+.colCeleste {background-color: #159CD8;}
+.colVioleta {background-color: #871ACB;}
+
+/* PROYECTOS ___________________________________ */
+#proyectos {padding-top: 0.5em;}
+#collaBarrafiltros {margin: 0;}
+#collaBarrafiltros a {
+    font-family: "Sequel100Wide-55Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 0.9em;
+    color: white;
+}
+
+#collaBarrafiltros a:hover {color: lightgray;}
+#collaBarrafiltros .navbar-toggler {
+    display: flex;
+    padding: 0;
+    line-height: 1.3em;
+}
+#todos a {text-decoration: underline;}
+.sinPadd {padding: 0 !important;}
+.cnThmbProy {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 1.1vw;
+}
+
+.cnThmbProy h1 {
+    display: none;
+    position: absolute;
+    font-family: "Gotham-Bold", "Gotham", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+.imgThBackCn {width: 100%; height: 100%; z-index: -1;}
+.imgThBackCn img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7em;
+}
+
+/* PROYECTO ___________________________________ */
+#proyecto {padding-top: 1em; display: none;}
+.botVolver {
+    display: flex;
+    width: 8em;
+    height: 2.5em;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botVolver img {
+    width: 100%;
+    height: 100%;
+    max-width: 2.3em;
+    max-height: 2.3em;
+}
+
+.botVolver p {
+    margin: 0 0 0 0.3em;
+    font-size: 1em;
+}
+
+#proyTitle {
+    margin-top: 0.3em;
+    margin-bottom: -.1em;
+    line-height: 1.1em;
+}
+
+.proyBarraClte p {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    margin: 0;
+    font-size: 1em;
+}
+
+.proyBarraClte p strong, #proyDesc strong {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+    font-weight: normal;
+}
+
+#proyDesc a {text-decoration: underline; color: white;}
+#proyDesc a:hover {color:lightgray;}
+.proyBarraClte .p-2:first-child {
+    padding-left: 0 !important;
+}
+
+.proybotFb {width: 2.5em; min-width: 2.5em;}
+.proybotFb img {width: 100%; height: 100%;}
+.proybotTw {width: 2.5em; min-width: 2.5em;}
+.proybotTw img {width: 100%; height: 100%;}
+#proyDesc {font-size: 1em;}
+.proycnBotAntSig .p-2 {
+    padding: 0 !important;
+}
+
+.proybotVolv {width: 2em; min-width: 2em;cursor: pointer;}
+.proybotVolv img {width: 100%; height: 100%;}
+.proybotAvnz {width: 2em; min-width: 2em;cursor: pointer;}
+.proybotAvnz img {width: 100%; height: 100%;}
+.imgGallery {
+    width: 100%;
+    height: 100%;
+    padding: 0 .8vw !important;
+    margin: .7em .3vw .3vw .3vw;
+}
+
+.imgGallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgGallery p {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    margin-top: 0.3em;
+    font-size: 0.8em;
+}
+
+.imgGalCn {width: 100%;height: 100%;}
+.imgGalCn img {border-radius: 0.7em;}
+
+/* ACERCA_____________________________________ */
+#acerca .row:first-child {padding-top: 1em;}
+.imgAcerca {width: 100%; max-width: 13em;}
+.ctAcerca {margin-top: 3em;}
+.prim {margin-top: 1em;}
+.ctAcerca p {margin-top: .9em;}
+.ctAcerca p strong {
+    font-family: "Sequel100Wide-75Wide", "Sequel 100 Wide", sans-serif;
+    font-weight: normal;
+}
+
+/* CONTACTO___________________________________ */
+#contacto .row:first-child {padding-top: 1em;}
+.icnContacto {width: 3em; margin: 0.3em 0.3em 0 0;}
+
+section h4 {
+    font-family: "Sequel100Wide-55Wide", "Sequel 100 Wide", sans-serif;
+    margin-top: 1.5em;
+    font-size: 1.4em;
+    color: white;
+}
+
+section #contacto #titleRow h1 {font-size: 3em;}
+#lnkMail {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 1.2em; 
+    color: white;
+}
+
+#tel {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    margin-top: 0.3em;
+    font-size: 1.2em;
+}
+
+/* FOOTER___________________________________ */
+footer {
+    font-family: "Sequel100Wide-45Wide", "Sequel 100 Wide", sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+footer p {margin-bottom: 0;}
+footer a {
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer div .col {margin-top: 3em; margin-bottom: 4em;}
+#futContacto .row {margin-top: 0;}
+
+/* MEDIA QUERIES ___________________________________ */
+/* TABLET */
+@media screen and (max-width: 767px) {
+    #imgServicios {width: 13em;}
+    #titleRow h1 {font-size: 1.7em;}
+    section h3 {font-size: 3em;}
+    .indLogo {height: 20em;}
+    p {font-size: 0.9em;}
+    footer p, footer a {font-size: 1em;}
+    .rectangulo h2 {font-size: 1.5em}
+    .rectangulo p, .rectangulo li {font-size: 1em}
+    .rotLang {
+        display: none;  /* DESACTIVADO */
+        margin-left: 0;
+        margin-top: 1em;
+        height: 2.4em;
+        border-radius: 0.5em;
+        background-color: rgba(0,0,0,0.6);
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none; 
+    }
+    #navBar1 {height: 0;}
+    .leftBsCn {display: none;}
+    #navBar2 {
+        top: 1em;
+        right: 1em;
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none; 
+    }
+    .sinPadd {padding: 0 10px !important;}
+    .cnThmbProy {margin: 1.7vw;}
+    #proyecto {padding-left: 10px;padding-right: 10px;}
+    .botVolver {height: 2em;}
+    .botVolver img {max-height: 2em;max-width: 2em;}
+    .botVolver p {font-size: .9em;}
+    .proyBarraClte p {font-size: 0.9em;}
+    .proybotFb, .proybotTw {width: 2.4em;min-width: 2.4em;}
+    #proyDesc {font-size: 0.9em;}
+    .full {display: none;}
+    .colla {display: inherit;}
+    .containerrr {margin: 0;}
+    #acerca {padding-left: 10px;padding-right: 10px;}
+    .imgAcerca {max-width: 10em;}
+    .ctAcerca p {margin-top: .8em;}
+    #contacto {padding-left: 10px;padding-right: 10px;}
+    section h4 {font-size: 1.5em;}
+    #lnkMail {font-size: 1em;}
+    #tel {font-size: 1em;}
+}
+@media screen and (max-width: 721px) {
+    .rectangulo {width: 28em;}
+    .largo {height: inherit; min-height: 22em;}
+    .corto {height: inherit; min-height: 13em;}
+}
+
+@media screen and (min-height: 600px) {
+    #futContacto .row {
+        position: fixed;
+        bottom: 4em;
+        left: 1em;
+        right: 1em;
+        margin: 0;
+}
+#futContacto .col {margin: 0;}}
+
+/* SMARTPHONES */
+@media screen and (max-width: 550px) {
+    #firstRow {padding: .8em 5px 0 5px;} /*servicios*/
+    #imgServicios {width: 11em;}
+    #titleRow h1 {font-size: 1.5em;}
+    .servCont {flex-grow: 1;}
+    .rectangulo {width: inherit;}
+    .largo {height: inherit; min-height: 22em;}
+    .corto {height: inherit; min-height: 12em;}
+    section h3 {font-size: 2.5em;}
+    .indLogo {height: 15em;}
+    p {font-size: 0.75em;}
+    footer p, footer a {font-size: 0.9em;}
+    .rectangulo h2 {font-size: 1.3em}
+    .rectangulo p, .rectangulo li {font-size: 0.9em}
+    .rotLang {margin: 1em 0 0 -0.5em;}
+    .sinPadd {padding: 0 5px !important;}
+    .cnThmbProy {margin: 2vw;}
+    #proyecto {padding-left: 5px;padding-right: 5px;}
+    .botVolver {height: 1.9em;}
+    .botVolver img {max-height: 1.9em;max-width: 1.9em;}
+    .botVolver p {font-size: .75em;}
+    .proyBarraClte p {font-size: 0.75em;}
+    .proybotFb, .proybotTw {width: 2.25em;min-width: 2.25em;}
+    #proyDesc {font-size: 0.75em;}
+    #acerca {padding-left: 5px;padding-right: 5px;}
+    .imgAcerca {max-width: 8em;}
+    #contacto {padding-left: 5px;padding-right: 5px;}
+    section h4 {font-size: 1.2em;}
+    #lnkMail {font-size: 0.9em;}
+    .icnContacto {width: 2.5em;margin:.2em .2em 0 0;}
+    #tel {font-size: 0.9em;}
+}

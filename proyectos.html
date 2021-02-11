@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dragonfly Studio - Proyectos</title>
+<link rel="icon" href="favicon.ico">
+<meta name="description" content="Estudio creativo multidisciplinario especializado en Branding, Diseño UX/UI, Desarrollo Web y Motion-graphics. Buenos Aires - Argentina.">
+<meta name="author" content="Santiago Insúa">
+<meta name="keywords" content="dragonfly, dragonfly studio, santiago insua, santiago insúa, diseño grafico, diseño gráfico, graphic design, ux design, ux/ui design, editorial, diseño editorial, flyers, banners, folletos, dipticos, tripticos, diseño de revistas, magazine, diario, diarios, newspaper, branding, motion graphics, diseño ux, web design, diseño web, javascript, jquery, angular, react, html, css, css3, bootstrap, php, app, apps, mobile apps, app design, fotografía, photography, desarrollo">
+
+<link href="style1.css" id="cssFile" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bs4/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="director/director.min.js"></script>
+<script src="bs4/js/bootstrap.min.js"></script>
+<script src="funciones.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- LEFT NAV -->
+        <div class="navbar fixed-top" id="navBar1">
+            <div class="d-flex flex-column navfcont1">
+                <div class="p-2 rotLang mr-auto">
+                    <p><a href="#">ES</a>|<a href="#">EN</a></p>
+                </div>
+                <div class="leftBsCn">
+                <div class="p-2 rotTel">
+                    <p>+54 9 11 3163-8027</p>
+                </div>
+                <div class="p-2">
+                    <a title="Mail" href="mailto:dragonflystudio.dg@gmail.com"><img class="icnNav" src="images/icn_mail.png"></a>
+                </div>
+                <div class="p-2">
+                    <a title="Facebook" href="http://www.facebook.com/SanInsua"><img class="icnNav" src="images/icn_facebook.png"></a>
+                </div>
+                <div class="p-2">
+                    <a title="Instagram" href="http://www.instagram.com/_dragonflystudio"><img class="icnNav" src="images/icn_instagram.png"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+<img src="images/btn_avanzar.png" class="ir-arriba">
+<div class="containerrr">
+    
+    <section id="proyectos">
+        <div class="row">
+            <div class="col">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                    <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaBarrafiltros">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                    <ul class="navbar-collapse collapse" id="collaBarrafiltros">
+                        <li class="nav-item" id="todos">
+                            <!-- si el ancho de la ventana es tablet o smartphone, setear data-toggle="collapse" -->
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">todos los proyectos</a></span>
+                        </li>
+                        <li class="nav-item" id="web">
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">web design</a></span>
+                        </li>
+                        <li class="nav-item" id="identity">
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">identity design</a></span>
+                        </li>
+                        <li class="nav-item" id="motion">
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">motion</a></span>
+                        </li>
+                        <li class="nav-item" id="foto">
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">fotografía</a></span>
+                        </li>
+                        <li class="nav-item" id="editorial">
+                            <span class="nbfiltro navbar-toggler" data-toggle="" data-target="#collaBarrafiltros"><a class="nav-link" href="#proyectos">editorial</a></span>
+                        </li>
+                    </ul>
+                    </nav>
+            </div>
+        </div>
+        <div id="proyectosCn"></div>
+    </section>
+    
+    <section id="proyecto">
+        <div class="row">
+            <div class="col">
+                <div class="botVolver">
+                    <img src="images/btn_volver.png">
+                    <p>VOLVER</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <h3 id="proyTitle"></h3>
+                <div class="d-flex align-items-center proyBarraClte">
+                    <div class="p-2">
+                        <p id="proyCliente"></p>
+                    </div>
+                    <div class="p-2">
+                        <p id="proyAnio"></p>
+                    </div>
+                    <div class="p-2">
+                        <p id="proyCat"></p>
+                    </div>
+
+                    <div class="p-2 ml-auto proybotFb">
+                        <a id="proyFb" title="Compartir en Facebook" href=""><img src="images/icn_facebook.png"></a>
+                    </div>
+                    <div class="p-2 proybotTw">
+                        <a id="proyTw" title="Compartir en Twitter" href=""><img src="images/icn_twitter.png"></a>
+                    </div>
+                </div>
+                
+                <p id="proyDesc"></p>
+                
+                <div class="d-flex align-items-center proycnBotAntSig">
+                    <div class="p-2 proybotVolv">
+                        <img src="images/btn_volver.png">
+                    </div>
+                    <div class="p-2 ml-auto proybotAvnz">
+                        <img src="images/btn_avanzar.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imgGalContainer"></div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <div class="col">
+                <p>Dragonfly Studio ©Copyright 2020<br>
+                    Buenos Aires · Argentina</p>
+                <a href="mailto:dragonflystudio.dg@gmail.com">dragonflystudio.dg@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</div>
+        <!-- RIGHT NAV -->
+        <nav class="full" id="navBar2">
+            <div class="d-flex align-items-center navfcont2">
+                <div class="p-2 logolnk" id="navPcpal">
+                    <a href="index.html"><img src="images/logo-solo.png"></a>
+                </div>
+                <div class="p-2" id="navPcpal">
+                    <a href="index.html#servicios">Servicios</a>
+                </div>
+                <div class="p-2" id="navPcpal">
+                    <a href="proyectos.html">Proyectos</a>
+                </div>
+                <div class="p-2" id="navPcpal">
+                    <a href="acerca.html">Acerca</a>
+                </div>
+                <div class="p-2" id="navPcpal">
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    
+    
+    <!-- COLLAPSIBLE (TABLET, SMARTPHONES) -->
+        <div class="colla">
+        <nav class="navbar navbar-expand-md justify-content-end navbar-dark" id="navBar2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaNB">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <ul class="collapse navbar-collapse" id="collaNB">
+                <li class="nav-item" id="navPcpal">
+                    <span class="navbar-toggler" data-toggle="collapse" data-target="#collaNB"><a href="index.html">Inicio</a></span>
+                </li>
+                <li class="nav-item" id="navPcpal">
+                    <span class="navbar-toggler" data-toggle="collapse" data-target="#collaNB"><a href="index.html#servicios">Servicios</a></span>
+                </li>
+                <li class="nav-item" id="navPcpal">
+                    <span class="navbar-toggler" data-toggle="collapse" data-target="#collaNB"><a href="proyectos.html">Proyectos</a></span>
+                </li>
+                <li class="nav-item" id="navPcpal">
+                    <span class="navbar-toggler" data-toggle="collapse" data-target="#collaNB"><a href="acerca.html">Acerca</a></span>
+                </li>
+                <li class="nav-item" id="navPcpal">
+                    <span class="navbar-toggler" data-toggle="collapse" data-target="#collaNB"><a href="contacto.html">Contacto</a></span>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    
+    </div>
+<script>
+    $(document).ready(function(){
+        //Al navegar extrae el nombre de proyecto de la barra
+        var verProyecto = function (proyName) {
+        console.log("verProyecto: " + proyName);
+        navProyecto(proyName);
+      };
+
+      var routes = {
+        '/proyecto/:proyName': verProyecto
+      };
+
+      var router = Router(routes);
+      router.init();
+        
+        //$(window).ready(function(){
+            if ($('body').width() <= 767) {
+                $('.nbfiltro').attr('data-toggle', 'collapse');
+            } else {
+                $('.nbfiltro').attr('data-toggle', '');
+            }
+        //});
+        FiltrarProyectos(5);
+        $("#todos").click(function(){setFiltro(5);});
+        $("#web").click(function(){setFiltro(0);});
+        $("#identity").click(function(){setFiltro(1);});
+        $("#motion").click(function(){setFiltro(2);});
+        $("#foto").click(function(){setFiltro(3);});
+        $("#editorial").click(function(){setFiltro(4);});
+    $(".proybotVolv").click(function(){
+        if (pActual > 0) {window.location.href = "#/proyecto/" + String(proyecto[pActual - 1].ruta).slice(10);}
+    });
+    $(".proybotAvnz").click(function(){
+        if (pActual < (proyecto.length - 1)) {window.location.href = "#/proyecto/" + String(proyecto[pActual + 1].ruta).slice(10);}
+    });
+        
+        $('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 500 ){
+            $('.ir-arriba').fadeIn(200);
+		} else {
+            $('.ir-arriba').fadeOut(200);
+		}
+	});
+    $('.botVolver').click(function(){
+        window.location.href = "#";
+        $('#proyectos').css('display', 'inherit');
+        $('#proyecto').css('display', 'none');
+        $('body, html').animate({scrollTop: '0px'}, 0);
+    });
+    $('#proyFb').attr('href', 'http://www.facebook.com/sharer.php?u='+dirActual);
+    $('#proyTw').attr('href', 'https://twitter.com/home?status='+dirActual);
+    });
+</script>
+</body>
+</html>
